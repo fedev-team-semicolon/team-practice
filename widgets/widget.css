@@ -37,3 +37,35 @@ body {
     }
   }
 }
+
+.widget-2 {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  width: 192px;
+  border: 1px solid #ebebea;
+  border-radius: 6px;
+  background: white;
+  box-shadow: 0 4px 4px 0 rgba(181, 181, 181, 0.15);
+  padding: 15px;
+
+  .deg-contents {
+    display: grid;
+    grid-auto-rows: auto;
+    row-gap: 4px;
+    .degree-1 {
+      color: skyblue;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 100%;
+      letter-spacing: -0.4px;
+    }
+    .degree-2 {
+      color: #6d7478;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 100%;
+      letter-spacing: 0.12px;
+    }
+  }
+}
