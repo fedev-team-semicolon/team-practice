@@ -1,0 +1,32 @@
+body {
+  margin: 20px;
+}
+
+.cart {
+  border: 2px solid darkgray;
+  border-radius: 8px;
+  padding: 10px;
+
+  .cart-header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+  }
+
+  .contents {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 20px;
+  }
+
+  .cart-footer {
+    display: flex;
+    border-top: 1px solid gray;
+    padding: 10px;
+    justify-content: end;
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
