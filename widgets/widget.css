@@ -1,0 +1,39 @@
+body {
+  margin: 20px;
+}
+
+.widget-1 {
+  border: 1px solid #ebebea;
+  background: var(
+    --gradient-300,
+    linear-gradient(99deg, #fff 29.16%, #f4f4f4 93.35%)
+  );
+  box-shadow: 0 4px 4px 0 rgba(181, 181, 181, 0.15);
+
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  width: 192px;
+  border-radius: 6px;
+
+  .deg-contents {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+
+    .degree-1 {
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 100%;
+      letter-spacing: 0.2px;
+    }
+
+    .degree-2 {
+      color: #6d7478;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 100%;
+      letter-spacing: 0.12px;
+    }
+  }
+}
