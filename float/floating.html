@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="/float/floating.css" />
+    <script type="module" src="/float/floating.js"></script>
+  </head>
+  <body>
+    <ul class="container">
+      <li class="avatar">
+        <button class="avatar-btn" aria-describedby="status-minji">
+          <!-- 스크린 리더에서 민지 민지 접속중 버튼 이라고 말함. 중복을 허용하지 않으려면? -->
+          <img src="/assets/newjeans/1.jpeg" alt="민지" />
+        </button>
+        <div class="status" id="status-minji" role="tooltip">
+          <span>민지</span>
+          <span>접속중</span>
+        </div>
+      </li>
+      <li class="avatar">
+        <button class="avatar-btn" aria-describedby="status-hani">
+          <img src="/assets/newjeans/2.jpeg" alt="하니" />
+        </button>
+        <div class="status" id="status-hani" role="tooltip">
+          <span>하니</span>
+          <span>접속중</span>
+        </div>
+      </li>
+      <li class="avatar">
+        <button class="avatar-btn" aria-describedby="status-daniel">
+          <img src="/assets/newjeans/3.jpeg" alt="다니엘" />
+        </button>
+        <div class="status" id="status-daniel" role="tooltip">
+          <span>다니엘</span>
+          <span>5분 전</span>
+        </div>
+      </li>
+      <li class="avatar">
+        <button class="avatar-btn" aria-describedby="status-haerin">
+          <img src="/assets/newjeans/4.jpeg" alt="해린" />
+        </button>
+        <div class="status" id="status-haerin" role="tooltip">
+          <span>해린</span>
+          <span>1시간 전</span>
+        </div>
+      </li>
+      <li class="avatar">
+        <button class="avatar-btn" aria-describedby="status-haein">
+          <img src="/assets/newjeans/5.jpeg" alt="혜인" />
+        </button>
+        <div class="status" id="status-haein" role="tooltip">
+          <span>혜인</span>
+          <span>1일 전</span>
+        </div>
+      </li>
+    </ul>
+  </body>
+</html>
